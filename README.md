@@ -1,57 +1,19 @@
-# essentials
+# FRONTEND
 
-## Project setup
+# 기획
+https://confnew.nexon.com/pages/viewpage.action?pageId=527381867  
+검증을 위한 최소 프론트엔드 작업  
+프론트엔드는 뭘 만들어야할까?  
 
-```
-# yarn
-yarn
+# 초기세팅
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
+```powershell
+yarn create vuetify
+git init
+git branch -b main
+git add .
+git commit -m "vuetify startup"
+git remote add origin https://gitlab.nexon.com/mod/future/maple-agents/frontend
+git push --set-upstream origin main
 ```
 
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
